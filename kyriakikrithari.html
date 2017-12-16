@@ -1,0 +1,71 @@
+<html>
+<head>
+<title> Kyriaki Krithari - Profile </title>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.main {
+    text-align: left;
+    background: #FAEBD7;
+	font-family: timesnewroman;
+}
+.header {background: #FAEBD7;color:#800000;}
+.footer {background: #FAEBD7;}
+.aside1 {background: #FAEBD7;}
+
+img {
+    border-radius: 50%;
+	align: center;
+}
+@media all and (min-width: 768px) {
+    .aside { flex: 1 auto; }
+    .main    { flex: 3 0px; }
+    .aside1 { text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;} 
+    .main    { order: 2; }
+    .footer  { order: 4; }
+}
+</style>
+</head>
+<body id="Profile">
+
+<div class="flex-container">
+  <aside class="aside aside1">
+	<nav>
+		<ul style="list-style-type:none">
+			<li><a href="kyriakikrithari.html">Profile</a></li>
+			<li><a href="CV.html">CV</a></li>
+			<li><a href="AgendBasedModel.html">Agent Based Model</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+  </aside>
+  <article class="main">
+	<h1><i>Hey, I'm Kyriaki Krithari and this is a little story of my life..   <img src="me.jpg" alt="me" width="150" height="200" align="center">   </i></h1>
+	<p><i> I was born in Athens, Greece</i>  <img src="athens.jpg" alt="athens" width="150" height="100" align="middle"> <i>I grew up in Vrilissia, a suberb of Athens</i>  <img src="vrilissia.jpg" alt="vrilissia" width="178" height="100" align="middle"></p>
+	<p><i>I spend all of my summers, as a kid and teenager, in Spetses island</i>  <img src="spetses.jpg" alt="spetses" width="240" height="150" align="middle"></p>
+	<p><i>When I finished the high school, I studied Geography at University of Aegean in Lesvos Island</i></p>
+		<img src="aegean.jpg" alt="university of aegean" width="225" height="150">  <img src="lesvos.jpg" alt="lesvos" width="240" height="150"> 
+	<p><i>I lived there for 4 years and I graduated in May 2017</i>   <img src="gradu.jpg" alt"graduation day" width="225" height="150" align="middle"></p>
+	<p><i>In september 2017 I moved to Leeds <img src="LEEDS.jpg" alt="Leeds" width="143" height="110" align="middle"> and I started MSc in GIS at University of Leeds <img src="uni.jpg" alt="University Of Leeds" width="143" height="110" align="middle"></p>
+		<h1><i>I love traveling and capturing every moment with my camera</i></h1>
+		<img src="tra.jpg" alt="Pelio" width="150" height="150"> <img src="trav.jpg" alt="Syros" width="150" height="150"> <img src="tr.jpg" alt="london" width="150" height="150"> <img src="travel.jpg" alt="thames" width="150" height="150">
+			<h1><i>I enjoy trying new foods from countries all over the world</i></h1>
+			<img src="shushi.jpg" alt="sushi" width="150" height="150"> <img src="pizza.jpeg" alt="pizza" width="150" height="150"> <img src="kebab.jpg" alt="kebab" width="150" height="150"> <img src="paella.jpg" alt="paella" width="150" height="150">
+  </article>
+
+  <footer class="footer"></footer>
+</div>
+</body>
+</html>
